@@ -12,7 +12,9 @@ sum=0
 for i in range(1,1000):
     if i%3==0 or i%5==0:
         sum+=i
-print(sum)'''
+print(sum)
+
+'''
 
 
 '''The New Solution'''
@@ -20,7 +22,9 @@ sum=0
 n=1000/3
 sum=3*n*(n+1)/2
 n=1000/5
-sum=5*n*(n+1)/2
+sum+=5*n*(n+1)/2
 
 n=1000/15
 total=sum-(15*n*(n+1)/2)
+print total
+
